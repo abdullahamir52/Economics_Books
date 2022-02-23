@@ -1,0 +1,79 @@
+% =========================================================================
+% GITHUB Codes
+% =========================================================================
+% Chowdhury Amir Abdullah
+% =========================================================================
+
+Due to copyright violations, I am moving the files away from google drive,
+and to github. You can download individual files from the github repo. 
+
+You can also copy the entire repository by using the codes given below.
+
+% =========================================================================
+% Cloning a repository in a local/personal folder
+% =========================================================================
+
+*press the windows key or the command key in mac and type terminal (for 
+ linux) or command prompt/powershell (for windows)
+ 
+*in terminal/cmd go to the folder you want to copy the repo to by using cmd
+ codes given below
+ 
+*then copy the repo using the following code
+git clone https://github.com/abdullahamir52/name_of_the_repo
+
+% =========================================================================
+% CMD/Terminal codes
+% =========================================================================
+
+* to see what's inside a directory
+ls
+
+* to enter a folder. 
+cd 'name of the folder'
+
+* to get to the top of the directory tree
+cd\ 
+
+* to get one folder up/behind
+cd..
+
+
+*ignore the codes below. They are for my personal use
+% =========================================================================
+% Pulling the codes
+% =========================================================================
+
+git pull
+
+% =========================================================================
+% adding new files to commit
+% =========================================================================
+
+git add -A
+
+% =========================================================================
+% commit the files
+% =========================================================================
+
+git commit -m "message_for_the_new_commits"
+
+% =========================================================================
+% pushing the files into remote
+% =========================================================================
+
+git push origin main
+
+*you can also use atom text editor to push the files into remote
+
+% =========================================================================
+% Atom codes
+% =========================================================================
+
+Ctrl+Shift+P to find the search option in atom
+
+search "Github clone"
+
+paste the link of the repo in the upper space
+
+select folder to clone the repo in the lower space
